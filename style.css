@@ -4,75 +4,88 @@
   padding: auto;
   margin: auto;
 }
-body{
-    margin:0;
-    padding:0;
-    font-family: sans-serif;
-    /* background: url(back.jpg);
-    background-size: cover; */
-    background-image: url(https://media.istockphoto.com/photos/blue-wall-texture-picture-id175400834?k=20&m=175400834&s=612x612&w=0&h=jYHEi1_sjnYnuI8ne6_KOm3iQ9NllGd3zKq6MZ5RJMQ=);
-    background-repeat: no-repeat;
-    background-size: cover;
-}   
-.box{
-  width:300px;
-  padding:30px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(https://media.istockphoto.com/photos/blue-wall-texture-picture-id175400834?k=20&m=175400834&s=612x612&w=0&h=jYHEi1_sjnYnuI8ne6_KOm3iQ9NllGd3zKq6MZ5RJMQ=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  width: 300px;
+  padding: 30px;
   position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   /* background:rgba(52, 202, 152, 0.4); */
-  text-align:center;
+  text-align: center;
   /* background-color: rgb(105, 200, 140) */
   border-radius: 10px;
-  border: 5px double  white;
-
+  border: 5px solid white;
 }
-.box h1
-{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-.box input[type="text"],.box input[type="password"]
-{
-border: 0;
-background: none;
-display: block;
-margin: 20px auto;
-text-align: center;
-border:0.1px solid white;
-padding:14px 10px;
-width:220px;
-outline: none;
-color: white;
-border-radius: 24px;
-transition:0.25px;
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 0.1px solid white;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
 }
 
-.box input[type="text"]:focus,.box input[type="password"]:focus{
-
-width:270px;
-border-color:rgb(56, 123, 151);
-
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 270px;
+  border-color: rgb(56, 123, 151);
 }
-.box input[type="submit"]{
-
-
-    border: 0;
-background: none;
-display: block;
-margin: 20px auto;
-text-align: center;
-border:0.1px solid white;
-padding:14px 35px;
-outline: none;
-color: white;
-border-radius: 24px;
-transition:0.25px;
-cursor:pointer;
-
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 0.1px solid white;
+  padding: 14px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
 }
-.box input[type="submit"]:hover{
-    background: rgb(33, 127, 194);
+.box input[type="submit"]:hover {
+  background: rgb(33, 127, 194);
+}
+.section1 {
+  color: rgb(79, 43, 113);
+  font-family: s;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+}
+.grid_item1{
+   
 }
