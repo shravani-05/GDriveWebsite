@@ -75,6 +75,7 @@ body {
 .section1 {
   color: rgb(79, 43, 113);
   font-family: s;
+  text-align: center;
 }
 .flex-container {
   display: flex;
