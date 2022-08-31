@@ -113,3 +113,61 @@ body {
   text-transform: uppercase;
   color: bisque;
 }
+/* width */
+.flex_item2 ::-webkit-scrollbar {
+  width: 20px;
+  flex-grow: 1;
+}
+
+/* Track */
+.flex_item2 ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.flex_item2 ::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 10px;
+
+}
+.a:link,  {
+  background-color: #f44336;
+  color: rgb(74, 158, 181);
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+}
+
+.a:hover {
+  color: rgb(88, 88, 186);
+  text-decoration: underline;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Poppins' , sans-serif;
+}
+.sidebar{
+  width: 270px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 1000%;
+  background-color: #2fbadd;
+}
+main{
+  margin: 300px;
+  
+}
+.header-title{
+  margin: 3000px ;
+}
+.sidebar-brand{
+  height: 90px;
+  padding-left: 1rem 0rem 1rem 2rem;
+  color: #fff;
+
+}
