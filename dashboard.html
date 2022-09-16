@@ -1,5 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <base target="_top">
+</head>
+<body>
+  <center><br>
+  <h2>Display google sheet data on webpage</h2>
+  <table>
+  <?var tableData = getSheetData;?>
+  <?for( var i =0;i< tableDataLength;i++){?>
+  <?if(i==0){?>
+    <tr>
+      <?for(var j=0; j < tableData[i].length;j++){ ?>
+        <th><?=tableData[i][j]?></th>
+        <?}?>
+    </tr>
+    <?}else {?>
+      <tr>
+        <?for(var j=0;j< tableData[i].length; j++){?>
+          <td><?=tableData=[i][j]?></td>
+          <?{?>
+      </tr>
+      <?{?>
+        <? { ?>
+        </table></center>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
