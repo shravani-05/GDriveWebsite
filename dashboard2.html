@@ -50,91 +50,11 @@
         <h1>ValleyWines</h1>
         
       </div>
-        <iframe src="https://script.google.com/macros/s/AKfycbyQIZmUJmssWD1NzSqXMXPLFKaC_Cul0VSJBrw945mmzskTZqvIt1dPAYzG2_344w_C/exec" frameborder="0"></iframe>
-      <div class="gapiCode">
-        <!-- <head>
-          <script text="text/javascript" src="jquery-3.6.0.js"></script>
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-          <script
-            src="https://accounts.google.com/gsi/client"
-            onload="gisInit()"
-            async
-            defer
-          ></script>
-          <script
-            src="https://apis.google.com/js/api.js"
-            onload="gapiLoad()"
-            async
-            defer
-          ></script>
-        </head>
-        <body>
-          <div id="data"></div>
-          <script>
-            var tokenClient;
-            var access_token;
-    
-            function gapiStart() {
-              gapi.client
-                .init({})
-                .then(function () {
-                  gapi.client.load("sheets", "v4");
-                })
-                .then(
-                  function (response) {
-                    console.log("discovery document loaded");
-                  },
-                  function (reason) {
-                    console.log("Error: " + reason.result.error.message);
-                  }
-                );
-            }
-    
-            function gapiLoad() {
-              gapi.load("client", gapiStart);
-            }
-    
-            function gisInit() {
-              tokenClient = google.accounts.oauth2.initTokenClient({
-                client_id:
-                  "466704570332-a58v8bom8qo9klpkj34jjjq97rdtv33j.apps.googleusercontent.com",
-                scope: "https://www.googleapis.com/auth/spreadsheets.readonly",
-                callback: (tokenResponse) => {
-                  access_token = tokenResponse.access_token;
-                },
-              });
-            }
-    
-            function getToken() {
-              tokenClient.requestAccessToken();
-            }
-    
-            function listMajors() {
-              gapi.client.sheets.spreadsheets.values
-                .get({
-                  spreadsheetId: "1l6avUtDIQKxrAta8HhUfi8SdjQrchygugSPmJfSfirU",
-                  range: "Sheet1!B38",
-                })
-                .then(function (response) {
-                  var range = response.result;
-                  $("#data").empty();
-                  $("#data").html(range.values);
-                  <style></style>;
-                  console.log(range.values);
-                });
-            }
-            function revokeToken() {
-              google.accounts.oauth2.revoke(access_token, () => {
-                console.log("access token revoked");
-              });
-            }
-          </script>
-          <button onclick="getToken();">Get access token</button> <br /><br />
-          <button onclick="listMajors();">Call Sheets API</button> <br /><br />
-          <button onclick="revokeToken();">Revoke token</button>
-
-          
-      </div> -->
+      <div class="appscript">
+        
+        <iframe src="https://script.google.com/macros/s/AKfycbwRRr1uLHuGTnr1O7_oN4h48g1AvSsVWJiapj1s9u6ckkKTFGNEy__lqfH8ToG4VQsn/exec" frameborder="0" width="100%" height="50%"></iframe>  
+      </div>  
+       
         <div class="section2">
             <p><b>Bussiness Analysis Tools</b</p>
           </div>
@@ -214,6 +134,7 @@
         
       </div>
     </div>
+     
         <!-- <div class="dashboard-cards">
             <div class="cards">
                 <div class="card-single">
