@@ -23,9 +23,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background:rgba(52, 202, 152, 0.4); */
   text-align: center;
-  /* background-color: rgb(105, 200, 140) */
   border-radius: 10px;
   border: 5px solid white;
 }
@@ -45,7 +43,6 @@ body {
   padding: 14px 10px;
   width: 220px;
   outline: none;
-  /* color: white; */
   border-radius: 24px;
   transition: 0.25px;
 }
@@ -184,6 +181,13 @@ a:hover {
   font-feature-settings: "blwf" ;
   font-synthes;
   color: rgb(49, 168, 168);
+}
+.welcome button{
+  margin-left: 90%;
+  background-color: #4dc0d4;
+  padding: 6px;
+  border-radius: 9px;
+  cursor: pointer;
 }
 /*DASHBOARD STYLING STARTS/////////////////////////////////*/
 *{
