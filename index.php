@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>YOU HAVE SUCCESSFULLY LOGGED OUT!</h3>
-    <a href="index.html">click here to go to login page</a>
+    
 </body>
 </html>
